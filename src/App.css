@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4158D0;
+}
+
+html, body {
+  color: white;
+  font-family: Lato, sans-serif;
+  padding-top: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.aplicacion-tareas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoapp-logo-contenedor {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoapp-logo {
+  width: 200px;
+}
+
+
+.tareas-lista-principal {
+  min-width: 260px;
+  max-width: 700px;
+  min-height: 300px;
+  max-height: 900px;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
